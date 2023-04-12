@@ -15,7 +15,6 @@ import lombok.NoArgsConstructor;
 public class Pokemon {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-//    DB가 유니크하게 제작함
     private int id;
     private String name;
     private  String type;
